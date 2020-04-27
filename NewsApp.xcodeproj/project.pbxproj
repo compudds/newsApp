@@ -3,47 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07B845D1233C0BA90078E432 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0706932122DDEE30005E79A2 /* Kingfisher.framework */; };
-		07B845D2233C0BA90078E432 /* Kingfisher.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0706932122DDEE30005E79A2 /* Kingfisher.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		07B845D3233C34D70078E432 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0706931D22DDE710005E79A2 /* Alamofire.framework */; };
-		07B845D4233C34D70078E432 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0706931D22DDE710005E79A2 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		07B845D5233C38400078E432 /* DocumentClassifier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0706932A22DE059A005E79A2 /* DocumentClassifier.framework */; };
-		07B845D6233C38400078E432 /* DocumentClassifier.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0706932A22DE059A005E79A2 /* DocumentClassifier.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		07BE379E2455EAB80081063D /* DocumentClassifier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BE379D2455EAB80081063D /* DocumentClassifier.framework */; };
+		07BE37A22455EACD0081063D /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BE37A12455EACC0081063D /* Kingfisher.framework */; };
+		07BE37A62455F2590081063D /* input.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = 07BE37A52455F2560081063D /* input.xcfilelist */; };
+		07BE37A82455F2700081063D /* output.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = 07BE37A72455F26D0081063D /* output.xcfilelist */; };
+		07C288A823A1743900E4FDAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8AE256A2092C7140064753D /* LaunchScreen.storyboard */; };
 		07FBC2EF22D7EAAD002B5941 /* ArticleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FBC2EE22D7EAAB002B5941 /* ArticleTableViewController.swift */; };
 		B8AE25622092C7130064753D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AE25612092C7130064753D /* AppDelegate.swift */; };
 		B8AE25672092C7130064753D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8AE25652092C7130064753D /* Main.storyboard */; };
 		B8AE25692092C7140064753D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8AE25682092C7140064753D /* Assets.xcassets */; };
-		B8AE256C2092C7140064753D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8AE256A2092C7140064753D /* LaunchScreen.storyboard */; };
 		B8AE25762092CC4A0064753D /* NewsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AE25752092CC4A0064753D /* NewsHelper.swift */; };
 		B8AE257A2092CD4F0064753D /* ArticleWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AE25792092CD4F0064753D /* ArticleWebViewController.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		07B845D0233C0B9B0078E432 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				07B845D2233C0BA90078E432 /* Kingfisher.framework in Embed Frameworks */,
-				07B845D4233C34D70078E432 /* Alamofire.framework in Embed Frameworks */,
-				07B845D6233C38400078E432 /* DocumentClassifier.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		0706931D22DDE710005E79A2 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
-		0706932122DDEE30005E79A2 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
-		0706932A22DE059A005E79A2 /* DocumentClassifier.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DocumentClassifier.framework; path = Carthage/Build/iOS/DocumentClassifier.framework; sourceTree = "<group>"; };
-		07B845CD233C0B9B0078E432 /* KingfisherSwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KingfisherSwiftUI.framework; path = Carthage/Build/iOS/KingfisherSwiftUI.framework; sourceTree = "<group>"; };
-		07FBC2EE22D7EAAB002B5941 /* ArticleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ArticleTableViewController.swift; path = "/Volumes/TarDisk-128 1/Eric Apps Swift 10/NewsApp/NewsApp/ArticleTableViewController.swift"; sourceTree = "<absolute>"; };
+		07BE379D2455EAB80081063D /* DocumentClassifier.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DocumentClassifier.framework; path = Carthage/Build/iOS/DocumentClassifier.framework; sourceTree = "<group>"; };
+		07BE37A12455EACC0081063D /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
+		07BE37A52455F2560081063D /* input.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = input.xcfilelist; sourceTree = "<group>"; };
+		07BE37A72455F26D0081063D /* output.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = output.xcfilelist; sourceTree = "<group>"; };
+		07FBC2EE22D7EAAB002B5941 /* ArticleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewController.swift; sourceTree = "<group>"; };
 		B8AE255E2092C7130064753D /* NewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8AE25612092C7130064753D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8AE25662092C7130064753D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -59,9 +41,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07B845D3233C34D70078E432 /* Alamofire.framework in Frameworks */,
-				07B845D1233C0BA90078E432 /* Kingfisher.framework in Frameworks */,
-				07B845D5233C38400078E432 /* DocumentClassifier.framework in Frameworks */,
+				07BE37A22455EACD0081063D /* Kingfisher.framework in Frameworks */,
+				07BE379E2455EAB80081063D /* DocumentClassifier.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,10 +52,8 @@
 		06FCD74E28B66228A7242166 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				07B845CD233C0B9B0078E432 /* KingfisherSwiftUI.framework */,
-				0706932A22DE059A005E79A2 /* DocumentClassifier.framework */,
-				0706932122DDEE30005E79A2 /* Kingfisher.framework */,
-				0706931D22DDE710005E79A2 /* Alamofire.framework */,
+				07BE37A12455EACC0081063D /* Kingfisher.framework */,
+				07BE379D2455EAB80081063D /* DocumentClassifier.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -82,6 +61,8 @@
 		B8AE25552092C7130064753D = {
 			isa = PBXGroup;
 			children = (
+				07BE37A72455F26D0081063D /* output.xcfilelist */,
+				07BE37A52455F2560081063D /* input.xcfilelist */,
 				B8AE25602092C7130064753D /* NewsApp */,
 				B8AE255F2092C7130064753D /* Products */,
 				06FCD74E28B66228A7242166 /* Frameworks */,
@@ -122,7 +103,6 @@
 				B8AE255B2092C7130064753D /* Frameworks */,
 				B8AE255C2092C7130064753D /* Resources */,
 				0706932522DDF210005E79A2 /* ShellScript */,
-				07B845D0233C0B9B0078E432 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,7 +120,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Better Search, LLC";
 				TargetAttributes = {
 					B8AE255D2092C7130064753D = {
@@ -172,7 +152,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8AE256C2092C7140064753D /* LaunchScreen.storyboard in Resources */,
+				07C288A823A1743900E4FDAA /* LaunchScreen.storyboard in Resources */,
+				07BE37A82455F2700081063D /* output.xcfilelist in Resources */,
+				07BE37A62455F2590081063D /* input.xcfilelist in Resources */,
 				B8AE25692092C7140064753D /* Assets.xcassets in Resources */,
 				B8AE25672092C7130064753D /* Main.storyboard in Resources */,
 			);
@@ -187,18 +169,14 @@
 			files = (
 			);
 			inputFileListPaths = (
+				"$(SRCROOT)/input.xcfilelist",
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/DocumentClassifier.framework",
 			);
 			outputFileListPaths = (
+				"$(SRCROOT)/output.xcfilelist",
 			);
 			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Kingfisher.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/DocumentClassifier.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -292,7 +270,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -346,7 +324,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -364,6 +342,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/NewsApp/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -387,6 +366,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/NewsApp/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
